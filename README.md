@@ -1,2 +1,2 @@
 # web322
-https://determined-ruby-xerus.cyclic.app
+deploy address: https://determined-ruby-xerus.cyclic.app
