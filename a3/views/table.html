@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .mySlides {
+        display: none;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a
+          href="/list"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >LIST</a
+        >
+        <a
+          href="/table"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >TABLE</a
+        >
+        <a
+          href="/audio"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >AUDIO</a
+        >
+        <a
+          href="/video"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >VIDEO</a
+        >
+
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-search"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Page content -->
+
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+      <!-- Main Section -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="band"
+      >
+        <h1>My Tables</h1>
+        <p class="w3-opacity">
+          <i>My Tables</i>
+        </p>
+
+        <h3>My Favorite Songs</h3>
+        <table style="width: 100%">
+          <caption>
+            Songs List
+          </caption>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <td>Album</td>
+              <td>Title</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">Taylor Swift</th>
+              <td>Fearless</td>
+              <td>Love Story</td>
+            </tr>
+            <tr>
+              <td>Speak Now</td>
+              <td>Bad Blood</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Adele</th>
+              <td>25</td>
+              <td>Rolling in the Deep</td>
+            </tr>
+          </tfoot>
+        </table>
+        <br />
+
+        <h3>My Favorite Movies</h3>
+        <table style="width: 100%">
+          <caption>
+            Movies List
+          </caption>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th colspan="2">Most Favorite Movies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2019</td>
+              <td>Midsommar</td>
+              <td>Once Upon a Time in Hollywood</td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>Run</td>
+              <td>365 Days</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>2021</td>
+              <td>13 Mintes</td>
+              <td>The Black Phone</td>
+            </tr>
+          </tfoot>
+        </table>
+        <br />
+
+        <h4>REVIEW</h4>
+        <p>
+          Really surprised by this one;was expecting the run of the mill
+          rom-com, but it is so much more than that; it's about family and the
+          smiles and cries of life. The whole film was filled with charm, wit
+          and had its fair share of heartfelt moments. Time travel is a subject
+          that has been visited many times in the film industry.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

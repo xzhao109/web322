@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB322 A3</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .mySlides {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a
+          href="/list"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >LIST</a
+        >
+        <a
+          href="/table"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >TABLE</a
+        >
+        <a
+          href="/audio"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >AUDIO</a
+        >
+        <a
+          href="/video"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >VIDEO</a
+        >
+
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-search"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Page content -->
+
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+      <!-- Main Section -->
+      <div
+        class="w3-container w3-content w3-padding-64"
+        style="max-width: 800px"
+        id="band"
+      >
+        <h1 class="w3-center">Xiao Zhao's Website</h1>
+        <p class="w3-opacity">
+          <i>Welcome to my website</i>
+        </p>
+        <p class="w3-justify">
+          In 2020, after much fascination about web and playing with Photoshop
+          to make layouts, I realised I had to learn HTML and CSS if I wanted to
+          bring my designs to life. Turns out it took 1 day(5-6 hours) to learn
+          the basics and 2 more days to be able to work my way around it. This
+          is to show how easy it is to learn HTML and CSS. I learned HTML by
+          always looking at the code and remembering the HTML tags. Then I
+          decided I did not want a high power dictating the amount of code used.
+          I was never afraid of code, tinkering with it, breaking it, figuring
+          it out. I always wanted to learn the hard way to fully consume the
+          concepts. I strayed away from using bloated templates and themes and
+          just wrote the code bare bones because it's actually quite elegant and
+          simple.
+        </p>
+        <p class="w3-opacity">
+          <i
+            >Demonstrating HTML5 principles and techniques, Routing in
+            Express...</i
+          >
+        </p>
+        <p class="w3-justify">
+          HTML5 is the newest version of HTML. The term refers to two things.
+          One is the updated HTML language itself, which has new elements and
+          attributes. The second is the larger set of technologies that work
+          with this new version of HTML — like a new video format — and enable
+          you to build more complex and powerful websites and apps. To
+          understand how HTML has evolved over the years, let's look at the
+          differences between HTML and HTML5.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div
+      class="w3-container w3-content w3-padding-64"
+      style="max-width: 800px"
+      id="contact"
+    >
+      <h2 class="w3-wide w3-center">CONTACT</h2>
+      <p class="w3-opacity w3-center"><i>Drop a note!</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width: 30px"></i> Toronto, CA<br />
+          <i class="fa fa-phone" style="width: 30px"></i> Phone: +1
+          123-456-7890<br />
+          <i class="fa fa-envelope" style="width: 30px"> </i> Email:
+          xzhao109@myseneca.ca<br />
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin: 0 -16px 8px -16px">
+              <div class="w3-half">
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Name"
+                  required
+                  name="Name"
+                />
+              </div>
+              <div class="w3-half">
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Email"
+                  required
+                  name="Email"
+                />
+              </div>
+            </div>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+            <button
+              class="w3-button w3-black w3-section w3-right"
+              type="submit"
+            >
+              SEND
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
