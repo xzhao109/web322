@@ -1,0 +1,44 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">Description</h1>
+    <p>Inside the newly created description.hbs" view, add text content to
+      answer the following: Explain the code in the main.hbs 2. Explain the
+      input elements in the addEmployee.html 3. Explain what is returned to the
+      form from checkLastName() function and why? This page includes a large
+      callout called a jumbotron and three supporting pieces of content.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>main.hbs</h2>
+      <p>The main function of the main.hbs file is to undertake the layout of
+        the website. The most important part is the body part, which is the core
+        of the navigation bar, content body and javascript. The main.hbs file is
+        declared in server.js:
+        <em>({defaultLayout: "main" });</em>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>addEmployee.html</h2>
+      <p>There are a total of 9 elements that need to be input, and the types
+        are text, email and checkbox. Of course, for the convenience of testing,
+        elements are not set as required. For the validity of lastname, a
+        separate function is designed, which will be explained in detail in the
+        checkLastName() function.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>checkLastName()</h2>
+      <p>In the checkLastName() function, I mainly made two restrictions on the
+        text, one is that it cannot be empty, and it must not contain non-letter
+        charactors such as numbers and symbols. There is no more design for the
+        length of the name and spaces. Once the value of lastname is empty or
+        does not meet the requirements, a notification will pop up and return
+        false. When onsubmit=false, the content of the form cannot be submitted.
+      </p>
+    </div>
+  </div>
+</div>
